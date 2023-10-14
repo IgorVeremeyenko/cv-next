@@ -10,7 +10,7 @@ export default function Contact() {
             <div className='flex'>
                 <div className='max-w-md p-4 flex flex-col gap-8'>
                     <div className='flex flex-col gap-4'>
-                        <p className='text text-xl uppercase font-medium'>don't be shy !</p>
+                        <p className='text text-xl uppercase font-medium'>don&apos;t be shy !</p>
                         <p>Feel free to get me in touch with me.
                             I am always open to discussing new projects,
                             creative ideas or oppotunities to be

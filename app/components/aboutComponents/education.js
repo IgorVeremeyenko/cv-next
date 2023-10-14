@@ -74,7 +74,7 @@ export default function Education() {
                                 </div>
                                 <i className="text-xs">ukraine</i>
                             </div>
-                            <p className="text-sm m-2">Obtained complete higher education of spaciality "Alternative and renewable sources of energy" and obtained
+                            <p className="text-sm m-2">Obtained complete higher education of spaciality <q>Alternative and renewable sources of energy</q> and obtained
                                 qualification of specialist in Alternative and renewable sources of energy.</p>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ export default function Education() {
                                 </div>
                                 <i className="text-xs">ukraine</i>
                             </div>
-                            <p className="text-sm m-2">Obtained higher education in the field of "Electrical Engineering and Electrotechnology" and received
+                            <p className="text-sm m-2">Obtained higher education in the field of <q>Electrical Engineering and Electrotechnology</q> and received
                                 the qualification of Bachelor of Electrical Engineering and Electrotechnology.</p>
                         </div>
                     </div>

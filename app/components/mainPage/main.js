@@ -29,12 +29,12 @@ export default function Main() {
                         <div className='xl:text-6xl font-black uppercase font-roboto flex flex-col lg:text-[2rem] md:text-[1.75rem]'> 
                             <div className='flex gap-4'>
                                 <Divider isActive={false} />
-                                <p className='text-myYellow '> i'm ihor veremiienko.</p>
+                                <p className='text-myYellow '> i&apos;m ihor veremiienko.</p>
                             </div>
                             <p className='pl-14 md:pl-[2.8rem]'>software developer</p>
                         </div>
                         <div className='p-10 pl-0 flex flex-col w-4/5'>
-                            <q>I am a system administrator with 5 years of experience. While learning programming languages, I found that Frontend is the most interesting for me. Now I'm looking for a job opportunity at this direction.</q>
+                            <q>I am a system administrator with 5 years of experience. While learning programming languages, I found that Frontend is the most interesting for me. Now I&apos;m looking for a job opportunity at this direction.</q>
                             <div className="pt-6 w-fit">
                                 <ScrollLink
                                     activeClass="active"
