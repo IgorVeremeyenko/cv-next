@@ -16,7 +16,7 @@ const PercentageCircle = ({ percent }) => {
           cy="50"
           r={radius}
           fill="transparent"
-          stroke="rgba(209, 213, 219, 1)"
+          stroke="#59494A"
           strokeWidth="8"
         />
         <circle
@@ -24,7 +24,7 @@ const PercentageCircle = ({ percent }) => {
           cy="50"
           r={radius}
           fill="transparent"
-          stroke="rgba(59, 130, 246, 1)"
+          stroke="#B76526"
           strokeWidth="8"
           strokeLinecap="round"
           strokeDasharray={circumference}

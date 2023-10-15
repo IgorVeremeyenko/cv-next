@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <div className='ml-20 md:ml-8'>
             <div className="relative flex justify-center">
-                <div className="text-6xl font-black uppercase font-roboto p-10 flex flex-row gap-4 z-10"><p>get</p> <p className="text-myYellow">in touch</p></div>
+                <div className="text-6xl font-black uppercase font-roboto p-10 flex flex-row gap-4 z-10"><p>get</p> <p className="text-opposite">in touch</p></div>
                 <div className="text-8xl font-black uppercase font-roboto opacity-10 absolute top-6 z-0 tracking-widest"><p>contact</p></div>
             </div>
             <div className='flex'>
@@ -20,7 +20,7 @@ export default function Contact() {
                     <div className='flex flex-col gap-8'>
                         <div className='flex flex-row gap-4 w-fit'>
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="#F5BF02" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-10 h-10">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#F5BF02" viewBox="0 0 24 24" strokeWidth="1.5" stroke="black" className="w-10 h-10">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z" />
                                 </svg>
                             </div>
@@ -33,7 +33,7 @@ export default function Contact() {
                         </div>
                         <div className='flex flex-row gap-4'>
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="#F5BF02" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-10 h-10">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#F5BF02" viewBox="0 0 24 24" strokeWidth="1.5" stroke="black" className="w-10 h-10">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z" />
                                 </svg>
 

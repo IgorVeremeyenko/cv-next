@@ -10,17 +10,17 @@ import theme from '../config/theme'
 export default function Home() {
   return (
     <ChakraProvider>
-      <div>
-        <section id="section1" className="h-screen bg-gray-100">
+      <div className='text-white'>
+        <section id="section1" className="h-screen bg-myColour">
           <Main />
         </section>
-        <section id="section2" className="h-fit bg-blue-100">
+        <section id="section2" className="h-fit bg-myColour">
           <About />
         </section>
-        <section id="section3" className="h-full bg-green-100">
+        <section id="section3" className="h-full bg-myColour">
           <Portfolio />
         </section>
-        <section id="section4" className="xl:h-full 2xl:h-full bg-green-100 md:h-full lg:h-full">
+        <section id="section4" className="xl:h-full 2xl:h-full bg-myColour md:h-full lg:h-full">
           <Contact />
         </section>
       </div>

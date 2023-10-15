@@ -32,21 +32,21 @@ export default function Tabs() {
         <div className='flex flex-col items-center p-10'>
             <div className="flex space-x-4">
                 <button
-                    className={`px-4 py-2 focus:outline-none ${activeTab === 1 ? 'text-myYellow' : 'text-gray-700'}`}
+                    className={`px-4 py-2 focus:outline-none ${activeTab === 1 ? 'text-opposite' : 'text-borders'}`}
                     onClick={() => handleTabClick(1)}
                 >
                     WEB DEVELOPMENT
                 </button>
                 <button
                     disabled
-                    className={`px-4 py-2 focus:outline-none ${activeTab === 2 ? 'text-myYellow' : 'text-gray-700'}`}
+                    className={`px-4 py-2 focus:outline-none ${activeTab === 2 ? 'text-opposite' : 'text-borders'}`}
                     onClick={() => handleTabClick(2)}
                 >
                     NETWORK
                 </button>
                 <button
                     disabled
-                    className={`px-4 py-2 focus:outline-none ${activeTab === 3 ? 'text-myYellow' : 'text-gray-700'}`}
+                    className={`px-4 py-2 focus:outline-none ${activeTab === 3 ? 'text-opposite' : 'text-borders'}`}
                     onClick={() => handleTabClick(3)}
                 >
                     MOCKUP
@@ -64,10 +64,10 @@ export default function Tabs() {
                                     <div className='flex items-center'>
                                         <p>Links:</p>
                                         <div className='flex flex-row'>
-                                            <Link href="https://igorveremeyenko.github.io/" target='_blank' className="transition ease-in-out delay-150   hover:scale-110 hover:bg-myYellow duration-300 rounded-md pl-2 pr-2">
+                                            <Link href="https://igorveremeyenko.github.io/" target='_blank' className="transition ease-in-out delay-150   hover:scale-110 hover:bg-opposite duration-300 rounded-md pl-2 pr-2">
                                                 <i>Realtime</i>
                                             </Link>
-                                            <Link href="https://github.com/IgorVeremeyenko/stage1-tasks-momentum/tree/master" target='_blank' className="transition ease-in-out delay-150   hover:scale-110 hover:bg-slate-500 duration-300 rounded-md pl-2 pr-2">
+                                            <Link href="https://github.com/IgorVeremeyenko/stage1-tasks-momentum/tree/master" target='_blank' className="transition ease-in-out delay-150   hover:scale-110 hover:bg-borders duration-300 rounded-md pl-2 pr-2">
                                                 <i>GitHub</i>
                                             </Link>
                                         </div>
@@ -80,7 +80,7 @@ export default function Tabs() {
                                     <div className='flex items-center'>
                                         <p>GitHub link:</p>
                                         <div className='flex flex-row'>
-                                            <Link href="https://github.com/IgorVeremeyenko/Minimus" target='_blank' className="transition ease-in-out delay-150 hover:scale-110 hover:bg-myYellow duration-300 rounded-md pl-2 pr-2">
+                                            <Link href="https://github.com/IgorVeremeyenko/Minimus" target='_blank' className="transition ease-in-out delay-150 hover:scale-110 hover:bg-opposite duration-300 rounded-md pl-2 pr-2">
                                                 <i>Frontend</i>
                                             </Link>
                                         </div>
@@ -93,7 +93,7 @@ export default function Tabs() {
                                     <div className='flex items-center'>
                                         {/* <p>GitHub links:</p>
                                         <div className='flex flex-row'>
-                                            <Link href="https://github.com/IgorVeremeyenko/front-barbershop" target='_blank' className="transition ease-in-out delay-150   hover:scale-110 hover:bg-myYellow duration-300 rounded-md pl-2 pr-2">
+                                            <Link href="https://github.com/IgorVeremeyenko/front-barbershop" target='_blank' className="transition ease-in-out delay-150   hover:scale-110 hover:bg-opposite duration-300 rounded-md pl-2 pr-2">
                                                 <i>Frontend</i>
                                             </Link>                                          
                                             <Link href="https://github.com/IgorVeremeyenko/API-BARBERSHOP" target='_blank' className="transition ease-in-out delay-150   hover:scale-110 hover:bg-slate-500 duration-300 rounded-md pl-2 pr-2">
@@ -109,7 +109,7 @@ export default function Tabs() {
                                     {/* <div className='flex items-center'>
                                         <p>GitHub links:</p>
                                         <div className='flex flex-row'>
-                                            <Link href="https://github.com/IgorVeremeyenko/front-barbershop" target='_blank' className="transition ease-in-out delay-150   hover:scale-110 hover:bg-myYellow duration-300 rounded-md pl-2 pr-2">
+                                            <Link href="https://github.com/IgorVeremeyenko/front-barbershop" target='_blank' className="transition ease-in-out delay-150   hover:scale-110 hover:bg-opposite duration-300 rounded-md pl-2 pr-2">
                                                 <i>Frontend</i>
                                             </Link>
                                             <Link href="https://github.com/IgorVeremeyenko/API-BARBERSHOP" target='_blank' className="transition ease-in-out delay-150   hover:scale-110 hover:bg-slate-500 duration-300 rounded-md pl-2 pr-2">
@@ -125,10 +125,10 @@ export default function Tabs() {
                                     <div className='flex items-center'>
                                         <p>GitHub links:</p>
                                         <div className='flex flex-row'>
-                                            <Link href="https://github.com/IgorVeremeyenko/front-barbershop" target='_blank' className="transition ease-in-out delay-150   hover:scale-110 hover:bg-myYellow duration-300 rounded-md pl-2 pr-2">
+                                            <Link href="https://github.com/IgorVeremeyenko/front-barbershop" target='_blank' className="transition ease-in-out delay-150   hover:scale-110 hover:bg-opposite duration-300 rounded-md pl-2 pr-2">
                                                 <i>Frontend</i>
                                             </Link>
-                                            <Link href="https://github.com/IgorVeremeyenko/API-BARBERSHOP" target='_blank' className="transition ease-in-out delay-150   hover:scale-110 hover:bg-slate-500 duration-300 rounded-md pl-2 pr-2">
+                                            <Link href="https://github.com/IgorVeremeyenko/API-BARBERSHOP" target='_blank' className="transition ease-in-out delay-150   hover:scale-110 hover:bg-borders duration-300 rounded-md pl-2 pr-2">
                                                 <i>Backend</i>
                                             </Link>
                                         </div>

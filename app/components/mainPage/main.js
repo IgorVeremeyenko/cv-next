@@ -8,12 +8,12 @@ import { Link as ScrollLink } from 'react-scroll';
 export default function Main() {
     return (
         <PageTransition>
-            <main className="bg-[#DADEDF]">
+            <main className="bg-myColour">
                 <div className='flex className="w-full h-screen overflow-hidden'>
                     <div className="relative">
-                        <div className="lg:w-80 shadow-xl absolute z-40 h-20 rounded-md rounded-tr-none rounded-tl-none rounded-bl-none top-0 bg-[#DADEDF] md:w-60"></div>
-                        <div className="w-16 shadow-xl absolute lg:h-screen z-0 bg-amber-400 md:h-[61%]"></div>
-                        <div className="w-96 shadow-xl absolute h-screen z-0 bg-amber-400 lg:w-96 2xl:top-[0%] transform skew-x-12 md:-left-28 md:top-[55%] md:w-72"></div>
+                        <div className="lg:w-80 shadow-xl absolute z-40 h-20 rounded-md rounded-tr-none rounded-tl-none rounded-bl-none top-0 bg-myColour md:w-60"></div>
+                        <div className="w-16 shadow-xl absolute lg:h-screen z-0 bg-opposite md:h-[61%]"></div>
+                        <div className="w-96 shadow-xl absolute h-screen z-0 bg-opposite lg:w-96 2xl:top-[0%] transform skew-x-12 md:-left-28 md:top-[55%] md:w-72"></div>
                     </div>
                     <div className="overflow-hidden rounded-xl lg:min-w-[450px] max-w-[450px] m-10 z-20 shadow-xl md:min-w-[300px] md:h-fit">
                         <Image
@@ -28,8 +28,8 @@ export default function Main() {
                     <div className='p-10 lg:mt-40 md:mt-4 md:h-screen'>
                         <div className='xl:text-6xl font-black uppercase font-roboto flex flex-col lg:text-[2rem] md:text-[1.75rem]'> 
                             <div className='flex gap-4'>
-                                <Divider isActive={false} />
-                                <p className='text-myYellow '> i&apos;m ihor veremiienko.</p>
+                                <Divider isActive={true} />
+                                <p className='text-opposite '> i&apos;m ihor veremiienko.</p>
                             </div>
                             <p className='pl-14 md:pl-[2.8rem]'>software developer</p>
                         </div>
@@ -46,8 +46,8 @@ export default function Main() {
                                 >
                                     <Button
                                         text={"More About Me"}
-                                        svg={<svg className="w-10 h-10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                        svg={<svg className="w-10 h-10 fill-opposite stroke-black" viewBox="0 0 24 24" fill="#213B3E" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                         </svg>} />
                                 </ScrollLink>
                             </div>

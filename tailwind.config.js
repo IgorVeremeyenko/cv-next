@@ -31,7 +31,11 @@ module.exports = {
         'nunito' : ['Nunito', 'sans-serif']
       },
       colors: {
-        'myYellow': '#F5BF02',
+        'myColour': '#463436',
+        'opposite': '#B76526',
+        'cards' : '#3F5F61',
+        'light': '#597C7E',
+        'borders':'#59494A'
       },
       spacing: {
         '50%': '50%',

@@ -7,8 +7,8 @@ export default function Education() {
                 <div className="col-span-1 row-span-2 max-w-xl">
                     <div>
                         <JobImage />
-                        <div className="border-l-2 border-[#F5BF02] ml-[1.2rem] pl-6 -mt-[2.4rem]">
-                            <div className="bg-slate-400 w-fit rounded-full p-1 m-2 text-xs"><p>2017-2022</p></div>
+                        <div className="border-l-2 border-opposite ml-[1.2rem] pl-6 -mt-[2.4rem]">
+                            <div className="bg-borders w-fit rounded-full p-1 m-2 text-xs"><p>2017-2022</p></div>
 
                             <div className="text uppercase m-2">
                                 <div className="flex flex-row gap-1 md:w-min">
@@ -26,8 +26,8 @@ export default function Education() {
                 <div className="col-span-1 row-span-2 max-w-xl">
                     <div>
                         <JobImage job={false} />
-                        <div className="border-l-2 border-[#F5BF02] ml-[1.2rem] pl-6 -mt-[2.4rem]">
-                            <div className="bg-slate-400 w-fit rounded-full p-1 m-2 text-xs"><p>2022</p></div>
+                        <div className="border-l-2 border-opposite ml-[1.2rem] pl-6 -mt-[2.4rem]">
+                            <div className="bg-borders w-fit rounded-full p-1 m-2 text-xs"><p>2022</p></div>
 
                             <div className="text uppercase m-2">
                                 <div className="flex flex-row gap-1 md:w-min">
@@ -45,8 +45,8 @@ export default function Education() {
                 <div className="col-span-1 max-w-xl">
                     <div>
                         <JobImage />
-                        <div className="border-l-2 border-[#F5BF02] ml-[1.2rem] pl-6 -mt-[2.4rem]">
-                            <div className="bg-slate-400 w-fit rounded-full p-1 m-2 text-xs"><p>2014-2017</p></div>
+                        <div className="border-l-2 border-opposite ml-[1.2rem] pl-6 -mt-[2.4rem]">
+                            <div className="bg-borders w-fit rounded-full p-1 m-2 text-xs"><p>2014-2017</p></div>
                             <div className="text uppercase m-2">
                                 <div className="flex flex-row gap-1 md:w-min">
                                     <p className="font-semibold">electrician</p>
@@ -63,8 +63,8 @@ export default function Education() {
                 <div className="col-span-1 max-w-xl">
                     <div>
                         <JobImage job={false} />
-                        <div className="border-l-2 border-[#F5BF02] ml-[1.2rem] pl-6 -mt-[2.4rem]">
-                            <div className="bg-slate-400 w-fit rounded-full p-1 m-2 text-xs"><p>2014</p></div>
+                        <div className="border-l-2 border-opposite ml-[1.2rem] pl-6 -mt-[2.4rem]">
+                            <div className="bg-borders w-fit rounded-full p-1 m-2 text-xs"><p>2014</p></div>
 
                             <div className="text uppercase m-2">
                                 <div className="flex flex-row gap-1 md:w-min">
@@ -83,8 +83,8 @@ export default function Education() {
                 <div className="col-span-1 max-w-xl">
                     <div>
                         <JobImage job={false} />
-                        <div className="border-l-2 border-[#F5BF02] ml-[1.2rem] pl-6 -mt-[2.4rem]">
-                            <div className="bg-slate-400 w-fit rounded-full p-1 m-2 text-xs"><p>2013</p></div>
+                        <div className="border-l-2 border-opposite ml-[1.2rem] pl-6 -mt-[2.4rem]">
+                            <div className="bg-borders w-fit rounded-full p-1 m-2 text-xs"><p>2013</p></div>
 
                             <div className="text uppercase m-2">
                                 <div className="flex flex-row gap-1 md:w-min">
