@@ -5,9 +5,11 @@ import Button from "../buttons/Button"
 import me from '../../assets/me.jpg'
 import PageTransition from "../animations/pageTransition"
 import { Link as ScrollLink } from 'react-scroll';
+import Head from 'next/head';
 export default function Main() {
     return (
         <PageTransition>
+            <Head><title>Resume | Ihor Veremiienko</title></Head>
             <main className="bg-myColour">
                 <div className='flex className="w-full h-screen overflow-hidden'>
                     <div className="relative">

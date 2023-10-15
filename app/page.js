@@ -6,7 +6,6 @@ import Portfolio from './portfolio/page'
 import Contact from './contact/page'
 import { ChakraProvider } from "@chakra-ui/react";
 import theme from '../config/theme'
-
 export default function Home() {
   return (
     <ChakraProvider>
