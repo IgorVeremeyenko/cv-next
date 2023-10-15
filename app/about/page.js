@@ -14,10 +14,16 @@ import { Suspense,lazy } from 'react';
 import { useSpring } from 'react-spring';
 export default function Page() {
   const handleDownload = () => {
-    const downloadLink = document.createElement('a');
-    downloadLink.href = '../assets/Ihor_Veremiienko.pdf'; 
-    downloadLink.download = 'Ihor_Veremiienko_Software_Developer.pdf';
-    downloadLink.click();
+    // Здесь вы можете указать URL файла для скачивания
+    const fileUrl = './Ihor_Veremiienko.pdf';
+    // Создаем ссылку для скачивания
+    const a = document.createElement('a');
+    a.href = fileUrl;
+    a.download = 'Ihor_Veremiienko_Software_Developer.pdf'; // Укажите желаемое имя файла
+    a.style.display = 'none';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
   };
   const circleProps = useSpring({
     from: { circleRadius: 0 },

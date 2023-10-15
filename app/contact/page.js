@@ -8,7 +8,7 @@ export default function Contact() {
                 <div className="text-8xl font-black uppercase font-roboto opacity-10 absolute top-6 z-0 tracking-widest"><p>contact</p></div>
             </div>
             <div className='flex'>
-                <div className='max-w-md p-4 flex flex-col gap-8'>
+                <div className='xl:max-w-[33rem] p-4 flex flex-col gap-8 md:max-w-[19rem]'>
                     <div className='flex flex-col gap-4'>
                         <p className='text text-xl uppercase font-medium'>don&apos;t be shy !</p>
                         <p>Feel free to get me in touch with me.
